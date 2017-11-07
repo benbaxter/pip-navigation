@@ -11,10 +11,13 @@ This sample focuses on the navigation behavior when a PIP-able activity is deepe
 
 You can read the [documentation][1] to learn more about PIP. There are two small blog posts on medium that also dive into PIP, [Making magic moments with PIP][2] and [Navigation patterns with PIP][3]
 
+You can comment out the [`finish()`][4] method in `WatchActvitiy` to see how an app will act without accounting for losing the back-stack when restoring from PIP mode.
+
 [0]: https://github.com/googlesamples/android-PictureInPicture
 [1]: https://developer.android.com/guide/topics/ui/picture-in-picture.html
 [2]: https://medium.com/google-developers/making-magic-moments-with-picture-in-picture-e02964bf75ae
-[3]: https://medium.com/google-developers/making-magic-moments-with-picture-in-picture-e02964bf75ae
+[3]: https://medium.com/@benbaxter/navigation-patterns-with-pip-2c5b6a446ba0
+[4]: https://github.com/benbaxter/pip-navigation/blob/master/app/src/main/java/com/example/android/pipnavigation/WatchActivity.java#L179
 
 Pre-requisites
 --------------
