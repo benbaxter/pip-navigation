@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PIP Navigation</string>
+
+    <string name="home">Home screen</string>
+    <string name="details">Details Screen</string>
+    <string name="watch_movie">Watch Movie</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="fast_forward">Fast forward</string>
+    <string name="fast_rewind">Fast rewind</string>
+    <string name="minimize">Minimize</string>
+    <string name="enter_picture_in_picture">Enter Picture-in-Picture mode</string>
+    <string name="explanation"><![CDATA[
+    This sample demonstrates how to handle navigation when returning from Picture-in-Picture mode.
+    The sample plays a video. The video keeps on playing when the app is turned in to
+    Picture-in-Picture mode. On Picture-in-Picture screen, the app shows an action item to pause or
+    resume the video.
+    ]]></string>
+    <string name="activity_based">Activity Based</string>
+    <string name="fragment_based">Fragment Based</string>
+
+</resources>
